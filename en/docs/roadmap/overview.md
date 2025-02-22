@@ -76,17 +76,10 @@ This document gives a broad overview of Kola's current features and future roadm
 
 ### **March 2025**
 
-#### **Integration capabilities**
-
-* **Scheduled task capabilities**  
-   Automate recurring processes and tasks by scheduling integrations at specified intervals.
-
 #### **AI capabilities**
 
 * **Agentic AI integration**  
    Create autonomous AI agents that can perform tasks and orchestrate complex workflows directly within your integration flows.  
-* **RAG integration** 
-   Leverage our Retrieval Augmented Generation (RAG) tools to transform raw data into intelligent, contextual outputs. Seamlessly integrating with your data sources, RAG enhances your app’s capability to provide precise, informed responses. 
 
 #### **Cloud enhancements**
 
@@ -96,7 +89,15 @@ This document gives a broad overview of Kola's current features and future roadm
 
 ### **September 2025**
 
+#### **AI capabilities**
+
+* **RAG integration** 
+   Leverage our Retrieval Augmented Generation (RAG) tools to transform raw data into intelligent, contextual outputs. Seamlessly integrating with your data sources, RAG enhances your app’s capability to provide precise, informed responses. 
+
 #### **Integration enhancements**
+
+* **Scheduled task capabilities**  
+   Automate recurring processes and tasks by scheduling integrations at specified intervals.
 
 * **GraphQL**  
    Introduce SDL-based low-code integration for connection creation and editing, streamlining GraphQL-based services.
