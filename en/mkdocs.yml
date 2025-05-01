@@ -76,14 +76,53 @@ nav:
       - Quick start guide: get-started/quick-start-guide.md
       - Key concepts: get-started/key-concepts.md
   - Learn:
-      - Message transformation: learn/message-transformation.md
-      - Message routing: learn/message-routing.md
-      - Service orchestration: learn/service-orchestration.md
-      - AI-assisted integration: learn/integration-ai.md
-      - AI agent integration: learn/ai-agent-integration.md
-      - Data mapping: learn/data-mapping.md
-#      - Natural functions: learn/natural-functions.md
-      - File integration: learn/file-integration.md
+      - learn/concepts/index.md
+      - Automation:
+        - learn/automation/index.md
+        - Automated File Processor : learn/automation/file-processor.md
+      - AI Agent:
+        - Learn About AI Agent: learn/ai-agent/index.md
+        - AI Chat Agent Integration: learn/ai-agent-integration.md # Kept Old ULR for SEO
+        - AI Agenet in Other Integration: learn/ai-agent/ai-agent.md
+      - Integration as API:
+        - learn/integration-as-api/index.md
+        - HTTP : 
+          - learn/integration-as-api/http/index.md
+          - Message Routing :
+            # TODO: Need a landing page 
+            - Message routing: learn/message-routing.md
+            - Content Based Routing : learn/integration-as-api/http/route/content-based.md
+            - Header Based Routing: learn/integration-as-api/http/route/header-based.md
+          - Message Transformation:
+            # TODO: Need a landing page
+            - Message transformation: learn/message-transformation.md # Kept Old ULR for SEO
+            - XML to JSON : learn/integration-as-api/http/transform/xml-to-json.md
+            - JSON to XML : learn/integration-as-api/http/transform/json-to-xml.md
+          - Service Ochestration:
+            # TODO: Need a landing page
+            - Multiple Service Integration : learn/integration-as-api/http/service-orchestration/multiple-service-integration.md
+            - Service orchestration: learn/service-orchestration.md # Kept Old ULR for SEO
+            - Redis Cache: learn/integration-as-api/http/service-orchestration/currency-conversion.md
+      - Event Integration:
+        - learn/event-integration/index.md
+      - File Integration: # Had to use Integrations instead of Integration to support old link
+        - learn/file-integrations/index.md
+        - Directory Service:
+          - learn/file-integrations/directory-service/index.md
+          - File integration: learn/file-integration.md # Kept Old ULR for SEO
+#      - Natural functions: learn/natural-functions.md # Kept Old ULR for SEO
+      - Connections: learn/connctions/index.md
+      - Data mapping: learn/data-mapping.md # Kept Old ULR for SEO
+      - Configurable:
+        - Learn About Configurable: learn/configurable/index.md
+      - Developer Guides:
+        - AI-assisted integration: learn/integration-ai.md
+      - Testing:
+        - Writing Tests: learn/testing/index.md
+      - Enterprise Integration Patterns:
+        - learn/enterprise-integration-patterns/index.md
+        - learn/enterprise-integration-patterns/message-route.md
+        - learn/enterprise-integration-patterns/message-translator.md
   - Deploy:
       - Deploy on a VM: deploy/jar.md
       - Deploy with Docker: deploy/docker.md
